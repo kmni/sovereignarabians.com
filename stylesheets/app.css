@@ -50,8 +50,11 @@ hr{
 	box-shadow:0px 0px;
 }
 .banner{
-	background:#000 url('../images/banner.jpg') no-repeat center;
-	height:449px;
+	background-color: #FFF;
+	position: relative;
+}
+.banner img {
+	display: block;
 }
 .content{
 	background:#000 url('../images/content-bg.png') repeat;
@@ -114,13 +117,18 @@ footer a{
 	margin:0px 0px 0px 10px;
 }
 
+.newsbox-container {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
 .newsbox{
 	background:url('../images/newsbox-bg.png') repeat;
 	position:relative;
-	top:342px;
 	border-top-left-radius:10px;
 	border-top-right-radius:10px;
 	color:#fff;
+	margin: auto;
 }
 .newsbox h2{
 	color:#fff;
